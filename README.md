@@ -46,4 +46,10 @@ From these results, it appears that danceability and loudness have a positive re
    <br>
       <img src="Images/img-05.png" width="300">
    <br>  
-The R squared of .022 means that this model only explains around 2% of why a track receives streams. In other words, there are other much more significant factors that influence a track's popularity aside from its musical elements.  
+The R squared of .022 means that this model only explains around 2% of why a track receives streams.  
+
+# 🔑 Key Findings  
+While there are elements, like danceability and loudness, that could potentially have a relationship with a song's popularity, there are other factors that may contribute much more significantly. So, to answer our initial question, "Can music be simplified to a formula?", our answer is no, there is no formula for creating the perfect song. A track's appeal is complex, and while certain musical elements may play a role, we cannot say that they are the sole driver of popularity.  
+
+# ☁️ Project Improvements  
+To improve this project, I would collect more data on the genre or the period when the track was released and perform a similar analysis on certain genres or periods in history. Since music can vary drastically across different genres or periods in history, analyzing the data in subsets may provide better results.   
