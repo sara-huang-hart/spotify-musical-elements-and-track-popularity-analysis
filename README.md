@@ -15,10 +15,17 @@ According to Spotify's developer documentation...
 - Instrumentalness predicts whether a track contains vocals or no vocals. In this context, "ooh" and "aah" sounds are not treated as vocals, whereas rap or spoken words are considered vocals. This is a value between 0 and 1, where 0 represents tracks with the greatest amounts of vocal content and 1 represents highly instrumental tracks.
 - Valance describes that musical positiveness is conveyed by a track. This is a value between 0 and 1, where 0 is the most "positive" and 1 is the most "negative".         
 
-# 📈 Statistical Analysis  
-### Hypothesis Testing  
+# 📈 Analysis  
+### Descriptive Analysis  
 For this project, we have decided that popularity would be defined as the number of streams a track has (the more streams = the more popular the track). Therefore, our dependent variable of interest is the number of streams. As such, we began our analysis by examining the distribution of streams. As shown in the histogram below, there were only a few "popular" tracks, with The Weeknd's "Blinding Lights" being the most popular with over 3 billion streams. Most observations seemed to lie within the 0-500 million range.   
    <br>
       <img src="Images/img-01.png" width="500">
    <br>  
 
+### Statistical Analysis - Hypothesis Testing  
+To test if the audio features we selected are relevant, we divided the observations with their respective streams into separate thresholds and then conducted hypothesis tests to determine whether each musical element is dependent or independent of the number of streams it receives. For example, for danceability, we formed the following hypotheses:  
+   <br>
+      <img src="Images/img-02.png" width="500">
+   <br>  
+The results showed a test statistic of 190.565 and a p-value of 9.198 x 10<sup>-8</sup> 
+   
