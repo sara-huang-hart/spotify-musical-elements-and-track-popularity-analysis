@@ -14,3 +14,11 @@ According to Spotify's developer documentation...
 - Loudness is the overall loudness of a track in decibels (dB). This value typically ranges between -60 and 0, where -60 dB is the lowest loudness and 0 dB is the highest loudness. In this dataset, the value is averaged across the entire track to provide a single value.
 - Instrumentalness predicts whether a track contains vocals or no vocals. In this context, "ooh" and "aah" sounds are not treated as vocals, whereas rap or spoken words are considered vocals. This is a value between 0 and 1, where 0 represents tracks with the greatest amounts of vocal content and 1 represents highly instrumental tracks.
 - Valance describes that musical positiveness is conveyed by a track. This is a value between 0 and 1, where 0 is the most "positive" and 1 is the most "negative".         
+
+# 📈 Statistical Analysis  
+### Hypothesis Testing  
+For this project, we have decided that popularity would be defined as the number of streams a track has (the more streams = the more popular the track). Therefore, our dependent variable of interest is the number of streams. As such, we began our analysis by examining the distribution of streams. As shown in the histogram below, there were only a few "popular" tracks, with The Weeknd's "Blinding Lights" being the most popular with over 3 billion streams. Most observations seemed to lie within the 0-500 million range.   
+   <br>
+      <img src="Images/img-01.png" width="500">
+   <br>  
+
