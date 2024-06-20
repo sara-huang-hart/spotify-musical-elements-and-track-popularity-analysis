@@ -27,5 +27,9 @@ To test if the audio features we selected are relevant, we divided the observati
    <br>
       <img src="Images/img-02.png" width="500">
    <br>  
-The results showed a test statistic of 190.565 and a p-value of 9.198 x 10<sup>-8</sup> 
-   
+The results showed a test statistic of 190.565 and a p-value of 9.198 x 10<sup>-8</sup>, indicating a relationship between danceability and the number of streams. Since the p-value is small, we rejected the null hypothesis and concluded that danceability and streams are not independent at a high level of significance. Following the same tests, we found that loudness and energy are also significant factors.  
+As for instrumentalness feature, we wanted to see if we could determine whether tracks with more vocals or less vocals had more streams on average, using the following hypothesis test:  
+   <br>
+      <img src="Images/img-03.png" width="500">
+   <br>  
+According to the results, we rejected the null hypothesis, indicating that tracks with more vocal presence tended to have more streams than those with fewer vocals at a high level of significance.  
