@@ -25,7 +25,7 @@ For this project, we have decided that popularity would be defined as the number
 ### Statistical Analysis - Hypothesis Testing  
 To test if the audio features we selected are relevant, we divided the observations with their respective streams into separate thresholds and then conducted hypothesis tests to determine whether each musical element is dependent or independent of the number of streams it receives. For example, for danceability, we formed the following hypotheses:  
    <br>
-      <img src="Images/img-02.png" width="500">
+      <img src="Images/img-02.png" width="300">
    <br>  
 The results showed a test statistic of 190.565 and a p-value of 9.198 x 10<sup>-8</sup>, indicating a relationship between danceability and the number of streams. Since the p-value is small, we rejected the null hypothesis and concluded that danceability and streams are not independent at a high level of significance. Following the same tests, we found that loudness and energy are also significant factors. <br>  
 
@@ -44,6 +44,6 @@ Though several of the musical elements passed hypothesis testing, we used regres
    <br>  
 From these results, it appears that danceability and loudness have a positive relationship with the number of streams, suggesting that the more danceable or loud a track is, the more popular it becomes. On the other hand, instrumentalness, energy, and valence show a negative relationship with streams. However, by examining the R squared, we found that the model is not statistically significant.  
    <br>
-      <img src="Images/img-05.png" width="500">
+      <img src="Images/img-05.png" width="300">
    <br>  
 The R squared of .022 means that this model only explains around 2% of why a track receives streams. In other words, there are other much more significant factors that influence a track's popularity aside from its musical elements.  
