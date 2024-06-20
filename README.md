@@ -11,4 +11,6 @@ According to Spotify's developer documentation...
 - Duration_min is the duration of the track in milliseconds. This is an integer value that is greater than 0.
 - Energy represents a perceptual measure of intensity and activity. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy. This is a value between 0 and 1, where 0 is the lowest energy and 1 is the most energy.
 - Tempo is the overall estimated tempo of a track in beats per minute (BPM). This is a value that is typically greater than 60, where the lower the value the "slower" the track.  
-- Loudness is the overall loudness of a track in decibels (dB).     
+- Loudness is the overall loudness of a track in decibels (dB). This value typically ranges between -60 and 0, where -60 dB is the lowest loudness and 0 dB is the highest loudness. In this dataset, the value is averaged across the entire track to provide a single value.
+- Instrumentalness predicts whether a track contains vocals or no vocals. In this context, "ooh" and "aah" sounds are not treated as vocals, whereas rap or spoken words are considered vocals. This is a value between 0 and 1, where 0 represents tracks with the greatest amounts of vocal content and 1 represents highly instrumental tracks.
+- Valance describes that musical positiveness is conveyed by a track. This is a value between 0 and 1, where 0 is the most "positive" and 1 is the most "negative".         
