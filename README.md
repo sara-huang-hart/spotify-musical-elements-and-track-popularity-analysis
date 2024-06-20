@@ -4,4 +4,4 @@ In the age of digitalization, music streaming services have become a fundamental
 <i>In collaboration with Yilu Chen, Andrew Gatchalian, Hsuan-Yi Lin, and Rakesh Venkata Subramaniyan.</i>  
 
 # 🎵 Data Overview  
-
+The dataset that was used for this project contained over 18,000 tracks from Spotify. The data provided insight into artists, tracks, albums, streams received, and audio features. For each track, there are various audio feature attributes. For this project, we focused on the danceability, duration_min, energy, tempo, loudness, instrumentalness, and valance attributes. 
