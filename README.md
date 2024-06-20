@@ -34,3 +34,16 @@ As for instrumentalness feature, we wanted to see if we could determine whether 
       <img src="Images/img-03.png" width="500">
    <br>  
 According to the results, we rejected the null hypothesis, indicating that tracks with more vocal presence tended to have more streams than those with fewer vocals at a high level of significance.  
+
+From the hypothesis tests for each musical element (danceability, energy, tempo, loudness, etc.), we concluded that tempo and duration are factors that do not seem to play a role in track popularity.  
+
+### Statistical Analysis - Regression Model  
+Though several of the musical elements passed hypothesis testing, we used regression modeling to see how strong their relationship is to the number of streams.  
+   <br>
+      <img src="Images/img-04.png" width="500">
+   <br>  
+From these results, it appears that danceability and loudness have a positive relationship with the number of streams, suggesting that the more danceable or loud a track is, the more popular it becomes. On the other hand, instrumentalness, energy, and valence show a negative relationship with streams. However, by examining the R squared, we found that the model is not statistically significant.  
+   <br>
+      <img src="Images/img-05.png" width="500">
+   <br>  
+The R squared of .022 means that this model only explains around 2% of why a track receives streams. In other words, there are other much more significant factors that influence a track's popularity aside from its musical elements.  
