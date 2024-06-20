@@ -4,4 +4,11 @@ In the age of digitalization, music streaming services have become a fundamental
 <i>In collaboration with Yilu Chen, Andrew Gatchalian, Hsuan-Yi Lin, and Rakesh Venkata Subramaniyan.</i>  
 
 # 🎵 Data Overview  
-The dataset that was used for this project contained over 18,000 tracks from Spotify. The data provided insight into artists, tracks, albums, streams received, and audio features. For each track, there are various audio feature attributes. For this project, we focused on the danceability, duration_min, energy, tempo, loudness, instrumentalness, and valance attributes. 
+The dataset that was used for this project contained over 18,000 tracks from Spotify. The data provided insight into artists, tracks, albums, streams received, and audio features. For each track, there are various audio feature attributes. For this project, we focused on the danceability, duration_min, energy, tempo, loudness, instrumentalness, and valance attributes.  
+
+According to Spotify's developer documentation...    
+- Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. This is a value between 0 and 1, where 0 is the least danceable and 1 is the most danceable.
+- Duration_min is the duration of the track in milliseconds. This is an integer value that is greater than 0.
+- Energy represents a perceptual measure of intensity and activity. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy. This is a value between 0 and 1, where 0 is the lowest energy and 1 is the most energy.
+- Tempo is the overall estimated tempo of a track in beats per minute (BPM). This is a value that is typically greater than 60, where the lower the value the "slower" the track.  
+- Loudness is the overall loudness of a track in decibels (dB).     
